@@ -1,0 +1,42 @@
+html
+{
+	overflow-y: auto;
+}
+[class^="icon-"]{background-image:url(glyphicons-halflings.png) !important;}
+body
+{
+	padding-top: 60px;
+}
+.navbar .brand-img
+{
+	padding-top: 3px;
+	padding-bottom: 0;
+	margin: 0;
+}
+.brand-img img
+{
+	margin: 0;
+	padding: 0;
+	height: 35px;
+}
+.container
+{
+	width: 90%;
+}
+
+.no-left-border
+{
+	border-left: none !important;
+}
+
+.table td, .table-condensed td, td.input-prepend
+{
+	padding-top: 1px !important;
+	padding-bottom: 4px !important;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+td input
+{
+	padding-bottom: 4px !important;
+}
